@@ -1,6 +1,6 @@
 import { json, type RequestHandler } from '@sveltejs/kit';
 import { Configuration, OpenAIApi } from 'openai';
-import { SupabaseClient, createClient } from '@supabase/supabase-js';
+import { createClient } from '@supabase/supabase-js';
 import {
 	SECRET_OPENAI_API_KEY,
 	SECRET_SUPABASE_ANON_KEY,
