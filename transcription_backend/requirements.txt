@@ -1,0 +1,5 @@
+whisper 
+git+https://github.com/openai/whisper.git
+pytube
+Flask
+flask_cors
