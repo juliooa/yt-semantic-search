@@ -27,3 +27,16 @@ The video script chunks are converted to embeddings using [OpenAI embeddings api
 
 The embeddings are store in a Supabase database with the [pgvector extension](https://supabase.com/docs/guides/database/extensions/pgvector).
 A postgres function is used for the similarity search ([more info here](https://supabase.com/blog/openai-embeddings-postgres-vector)).
+
+
+# To run
+
+Run the python backend
+```
+> flask --app transcription_backend/server run
+```
+Run the front-end
+```
+> cd webapp
+> npm run dev
+```
